@@ -3,7 +3,8 @@
 int main()
 {
     int a, b = 1, c = 0;
-    scanf_s("in put number %d", &a);
+    printf("in put number : ");
+    scanf_s("%d",&a);
     while (b <= a)
     {
         if (a % b == 0)
